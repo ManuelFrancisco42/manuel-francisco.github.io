@@ -1,0 +1,59 @@
+/****************** About Page ****************/
+
+#aboutPage {
+  .about-info {
+    display: grid;
+    grid-template-areas: 'displaybiografiImage biografi biografi' 'display_1 display_2 display_3';
+    grid-gap: 1.2rem;
+  }
+
+  .biografi-image {
+    grid-area: displaybiografiImage;
+  }
+
+  .biografi {
+    grid-area: biografi;
+    border-left: 3px solid #512da8;
+    padding: 0.8rem;
+  }
+}
+
+.background-light {
+  background: #f4f4f4;
+  color: #000;
+}
+
+#aboutProgress {
+  .progress {
+    overflow: hidden;
+    height: 35px;
+    background: #ccc;
+    border-radius: 5px;
+    margin-bottom: 0.6rem;
+    border-radius: 35px 0 30px 0;
+
+    div {
+      height: 100%;
+      color: #fff;
+      text-align: center;
+      background: #512da8;
+    }
+  }
+}
+
+.background-dark {
+  background: #333;
+  color: #fff;
+}
+
+#aboutLogo {
+  .about-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+
+    img {
+      width: 70%;
+    }
+  }
+}

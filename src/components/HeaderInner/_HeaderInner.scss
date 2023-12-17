@@ -1,0 +1,61 @@
+/**************** HeaderInner ******************/
+
+ #HeaderInner  {
+  background: linear-gradient(
+      to right bottom,
+      rgba(200, 200, 200, 0.3),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url('../../assets/images/showcase.webp') no-repeat 20% 30% / cover;
+  height: 5.5rem;
+  border-bottom: 3px solid #512da8;
+  border-radius: 0.2rem 0.2rem 0 0;
+
+  
+  &.large-height {
+    height: 10rem;
+  }
+}
+ 
+#mainNav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+
+  ul {
+    display: flex;
+    
+  }
+
+  li {
+    padding: 1rem 1.5rem;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      border-bottom: 3px transparent solid;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.5s;
+
+      &:hover {
+        border-color: #ccc;
+      }
+
+      &.current {
+        border-color: #512da8;
+      }
+    }
+  }
+}
+
+.portfolio-logo {
+  color: #fff;
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase;
+}

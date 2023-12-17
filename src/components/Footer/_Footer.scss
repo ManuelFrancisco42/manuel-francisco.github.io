@@ -1,0 +1,35 @@
+/****************** Footer ***********************/
+
+#mainFooter {
+  background: #333;
+  color: #fff;
+  height: 5rem;
+
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+
+    .social {
+      .fab {
+        margin-right: 1rem;
+        border: 2px #fff solid;
+        //  border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        text-align: center;
+        padding: 0.5rem;
+        background: #333;
+
+        &:hover {
+          background: #512da8;
+        }
+      }
+    }
+  }
+}
+.social a .fab {
+  color: #fff;
+}

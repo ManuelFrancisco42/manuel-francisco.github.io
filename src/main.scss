@@ -1,0 +1,20 @@
+/* Main scss */
+@import './pages/Home';
+@import './pages/About/About';
+@import './pages/Contact/Contact';
+@import './pages/Work/Work';
+// @import './css/Style';
+@import './components/Contact/contactInfo';
+@import './components/Writer/WriterComponent';
+@import './components/HeaderInner/HeaderInner';
+@import './components/HeaderHome/HeaderHome';
+@import './components/Footer/Footer';
+@import './components/MediaQueries/mediaQueries';
+
+
+
+.lead {
+  margin-top: 25px;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
