@@ -1,18 +1,10 @@
-
 import React, { useState, useEffect } from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 import './_Contact.scss';
 import ContactInfo from '../../components/Contact/contactInfo';
 
 function Contact() {
   const [state, handleSubmit] = useForm('xrgwvyqd');
-  const [formData, setFormData] = useState({
-    name: '',
-    subject: '',
-    _replyto: '',
-    phone: '',
-    message: '',
-  });
 
   const [showThankYou, setShowThankYou] = useState(false);
 
@@ -23,27 +15,12 @@ function Contact() {
       // Automatically clear the form and hide the thank-you message after 5 seconds
       const timeoutId = setTimeout(() => {
         setShowThankYou(false);
-        // Reset the form fields
-        setFormData({
-          name: '',
-          subject: '',
-          _replyto: '',
-          phone: '',
-          message: '',
-        });
       }, 5000);
 
       // Clear the timeout when the component unmounts or when a new message is sent
       return () => clearTimeout(timeoutId);
     }
   }, [state.succeeded]);
-
-  const handleInputChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -70,7 +47,7 @@ function Contact() {
               </div>
             ) : (
               <form onSubmit={handleFormSubmit}>
-                  <div className='text-fields'>
+                <div className='text-fields'>
                   {/* ... Your input fields ... */}
                   <label htmlFor='name'>Name</label>
                   <input id='name' type='text' name='name' required />

@@ -6,7 +6,6 @@
     "pages/Contact/_Contact.scss",
     "pages/Work/_Work.scss",
     "pages/_Home.scss",
-    "css/_Style.scss",
     "components/Writer/_WriterComponent.scss",
     "components/HeaderInner/_HeaderInner.scss",
     "components/HeaderHome/_HeaderHome.scss",

@@ -10,8 +10,6 @@ const WriterComponent = () => {
     const txtElement = document.getElementById('make');
      new Writer(txtElement, words, 3000);
 
-    // Optionally, you can use typeWriterInstance here if needed
-
     
   }, [words]);
 
