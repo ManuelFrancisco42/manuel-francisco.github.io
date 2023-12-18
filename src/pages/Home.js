@@ -1,3 +1,5 @@
+/************ Home Page *************/
+
 import React from 'react';
 import './_Home.scss';
 

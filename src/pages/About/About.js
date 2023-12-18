@@ -1,3 +1,5 @@
+/****************** About Page ****************/
+
 import React from 'react';
 import './_About.scss';
 
@@ -9,7 +11,6 @@ const About = () => {
         <section id='aboutPage' className='text-center paddElement-3'>
           <div className='container'>
             <h2 className='section-title'>About Me</h2>
-
             <p>VOTRE VISION, MON ENGAGEMENT</p>
             <p className='lead'>
               Bienvenue dans l'univers où la créativité rencontre la
@@ -18,7 +19,6 @@ const About = () => {
               projet avec une expertise méticuleuse et une passion inébranlable.
             </p>
             <div className='about-info'>
-              <img src='img/about.jpg' alt='' className='biografi-image' />
               <div className='biografi background-light'>
                 <h4>TRANSFORMEZ VOS IDÉES EN RÉALITÉ</h4>
                 <p>

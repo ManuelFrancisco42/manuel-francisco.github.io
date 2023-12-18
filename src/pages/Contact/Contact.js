@@ -1,3 +1,5 @@
+/************** Contact Page *************/
+
 import React, { useState, useEffect } from 'react';
 import { useForm } from '@formspree/react';
 import './_Contact.scss';

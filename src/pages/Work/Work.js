@@ -1,3 +1,5 @@
+/************ Work Page *************/
+
 import React from 'react';
 import './_Work.scss';
 import ohmyfoodImage from '../../assets/images/ohmyfood_final_1.webp';
@@ -6,7 +8,6 @@ import bookiImage from '../../assets/images/Booki.webp';
 import statsPreview from '../../assets/images/stats-preview-component.webp';
 
 const Work = () => {
- 
   const projects = [
     {
       title: 'Ohmyfood website',
@@ -55,7 +56,7 @@ const Work = () => {
       description: '',
     },
   ];
-  
+
   return (
     <div>
       <div className='main-container'>
@@ -92,9 +93,6 @@ const Work = () => {
       </div>
     </div>
   );
-
-
-
-  };
+};
 
 export default Work;

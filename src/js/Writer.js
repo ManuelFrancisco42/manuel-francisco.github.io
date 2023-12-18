@@ -1,3 +1,5 @@
+/************** Writer********************/
+
 class Writer {
   constructor(txtElement, words, wait = 3000) {
     this.txtElement = txtElement;
@@ -34,7 +36,7 @@ class Writer {
       this.wordIndex++;
       typeSpeed = 500;
 
-       /* Reset to the first word if we have cycled through all words */
+      /* Reset to the first word if we have cycled through all words */
       if (this.wordIndex === this.words.length) {
         this.wordIndex = 0;
       }

@@ -1,3 +1,5 @@
+/**************** HeaderInner js ******************/
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './_HeaderInner.scss';
@@ -75,4 +77,3 @@ const HeaderInner = () => {
 };
 
 export default HeaderInner;
- 

@@ -1,7 +1,9 @@
+/**************** HeaderHome js *****************/
+
 import React from 'react';
- import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './_HeaderHome.scss';
-import Writer from '../Writer/WriterComponent';   
+import Writer from '../Writer/WriterComponent';
 const Header = () => {
   return (
     <div className='main-container'>
@@ -28,7 +30,7 @@ const Header = () => {
                 <Link to='/contact'>Contact</Link>
               </li>
               <li>
-                <a href= '../../assets/cv/Joelle_CV-01.pdf' download>
+                <a href='../../assets/cv/Joelle_CV-01.pdf' download>
                   CV
                 </a>
               </li>
@@ -36,7 +38,7 @@ const Header = () => {
           </nav>
           <div className='headerContent'>
             <h1 id='littlewords'>
-              à Saint-Étienne. 
+              à Saint-Étienne.
               <Writer
                 words={['Integrateur Web', 'Developpeur Web']}
                 wait={3000}
@@ -56,5 +58,4 @@ const Header = () => {
   );
 };
 
-export default Header;   
- 
+export default Header;
