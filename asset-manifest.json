@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ManuelFrancisco42/manuel-francisco.github.io.git/static/css/main.d6bbf628.css",
-    "main.js": "/ManuelFrancisco42/manuel-francisco.github.io.git/static/js/main.adb28ca3.js",
-    "static/js/787.c922dae8.chunk.js": "/ManuelFrancisco42/manuel-francisco.github.io.git/static/js/787.c922dae8.chunk.js",
-    "static/media/ohmyfood_final_1.webp": "/ManuelFrancisco42/manuel-francisco.github.io.git/static/media/ohmyfood_final_1.04f0f8fff2caa298781a.webp",
-    "static/media/Booki.webp": "/ManuelFrancisco42/manuel-francisco.github.io.git/static/media/Booki.fbb5a3122d5e1507a72f.webp",
-    "static/media/showcase.webp": "/ManuelFrancisco42/manuel-francisco.github.io.git/static/media/showcase.aa73fde6b7ad0eea1bc5.webp",
-    "static/media/stats-preview-component.webp": "/ManuelFrancisco42/manuel-francisco.github.io.git/static/media/stats-preview-component.f3ccc84bc9b9201ec19f.webp",
-    "static/media/print-it-JS.webp": "/ManuelFrancisco42/manuel-francisco.github.io.git/static/media/print-it-JS.0c4d6fd6bccc9fb9f4d5.webp",
-    "index.html": "/ManuelFrancisco42/manuel-francisco.github.io.git/index.html",
-    "main.d6bbf628.css.map": "/ManuelFrancisco42/manuel-francisco.github.io.git/static/css/main.d6bbf628.css.map",
-    "main.adb28ca3.js.map": "/ManuelFrancisco42/manuel-francisco.github.io.git/static/js/main.adb28ca3.js.map",
-    "787.c922dae8.chunk.js.map": "/ManuelFrancisco42/manuel-francisco.github.io.git/static/js/787.c922dae8.chunk.js.map"
+    "main.css": "/ManuelFrancisco42/manuel-francisco.github.io/static/css/main.b77b3a3f.css",
+    "main.js": "/ManuelFrancisco42/manuel-francisco.github.io/static/js/main.dcdecce5.js",
+    "static/js/787.c922dae8.chunk.js": "/ManuelFrancisco42/manuel-francisco.github.io/static/js/787.c922dae8.chunk.js",
+    "static/media/ohmyfood_final_1.webp": "/ManuelFrancisco42/manuel-francisco.github.io/static/media/ohmyfood_final_1.04f0f8fff2caa298781a.webp",
+    "static/media/Booki.webp": "/ManuelFrancisco42/manuel-francisco.github.io/static/media/Booki.fbb5a3122d5e1507a72f.webp",
+    "static/media/showcase.webp": "/ManuelFrancisco42/manuel-francisco.github.io/static/media/showcase.aa73fde6b7ad0eea1bc5.webp",
+    "static/media/stats-preview-component.webp": "/ManuelFrancisco42/manuel-francisco.github.io/static/media/stats-preview-component.f3ccc84bc9b9201ec19f.webp",
+    "static/media/print-it-JS.webp": "/ManuelFrancisco42/manuel-francisco.github.io/static/media/print-it-JS.0c4d6fd6bccc9fb9f4d5.webp",
+    "index.html": "/ManuelFrancisco42/manuel-francisco.github.io/index.html",
+    "main.b77b3a3f.css.map": "/ManuelFrancisco42/manuel-francisco.github.io/static/css/main.b77b3a3f.css.map",
+    "main.dcdecce5.js.map": "/ManuelFrancisco42/manuel-francisco.github.io/static/js/main.dcdecce5.js.map",
+    "787.c922dae8.chunk.js.map": "/ManuelFrancisco42/manuel-francisco.github.io/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6bbf628.css",
-    "static/js/main.adb28ca3.js"
+    "static/css/main.b77b3a3f.css",
+    "static/js/main.dcdecce5.js"
   ]
 }
